@@ -1,0 +1,18 @@
+{
+  "backup_timestamp": "2026-03-19T07:18:18.551321+00:00",
+  "files": {
+    "agents/code-reviewer.md": "2026-03-18T06:41:17.288090+00:00",
+    "agents/swift-expert.md": "2026-03-18T06:47:25.193246+00:00",
+    "agents/security-auditor.md": "2026-03-18T06:41:44.738847+00:00",
+    "agents/refactor-assistant.md": "2026-03-18T06:42:02.696790+00:00",
+    "agents/ios-expert.md": "2026-03-18T06:47:14.963217+00:00",
+    "agents/test-writer.md": "2026-03-18T06:41:35.773531+00:00",
+    "agents/go-expert.md": "2026-03-18T06:53:11.436597+00:00",
+    "skills/investigate/SKILL.md": "2026-03-18T08:15:36.500623+00:00",
+    "skills/sync-backup/SKILL.md": "2026-03-19T07:11:03.225946+00:00",
+    "skills/sync-restore/SKILL.md": "2026-03-19T07:11:37.393585+00:00",
+    "skills/sync-status/SKILL.md": "2026-03-19T07:11:52.784043+00:00",
+    "CLAUDE.md": "2025-09-11T03:55:35.898689+00:00",
+    "plugins.json": "2026-03-19T07:18:18.552161+00:00"
+  }
+}
