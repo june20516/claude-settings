@@ -1,5 +1,5 @@
 {
-  "backup_timestamp": "2026-03-24T01:05:42.883702+00:00",
+  "backup_timestamp": "2026-03-24T01:21:41.917969+00:00",
   "files": {
     "agents/code-reviewer.md": "2026-03-18T06:41:17.288090+00:00",
     "agents/swift-expert.md": "2026-03-18T06:47:25.193246+00:00",
@@ -9,7 +9,7 @@
     "agents/test-writer.md": "2026-03-18T06:41:35.773531+00:00",
     "agents/go-expert.md": "2026-03-18T06:53:11.436597+00:00",
     "skills/investigate/SKILL.md": "2026-03-18T08:15:36.500623+00:00",
-    "skills/sync-backup/SKILL.md": "2026-03-24T00:35:18.707816+00:00",
+    "skills/sync-backup/SKILL.md": "2026-03-24T01:14:09.416442+00:00",
     "skills/sync-backup/scripts/generate_metadata.py": "2026-03-24T00:31:39.778395+00:00",
     "skills/sync-backup/scripts/parse_mcp.py": "2026-03-24T00:31:38.652100+00:00",
     "skills/sync-backup/scripts/extract_plugins.py": "2026-03-24T00:31:37.913435+00:00",
@@ -19,6 +19,6 @@
     "skills/sync-status/scripts/compare_mcp.py": "2026-03-24T00:32:47.659729+00:00",
     "skills/sync-status/scripts/check_status.py": "2026-03-24T00:32:46.044907+00:00",
     "CLAUDE.md": "2025-09-11T03:55:35.898689+00:00",
-    "plugins.json": "2026-03-24T01:05:42.883702+00:00"
+    "plugins.json": "2026-03-24T01:21:41.917969+00:00"
   }
 }
