@@ -35,10 +35,10 @@ EOF
   echo "✓ sync-config.json 생성됨 (repo: $REPO_URL)"
 fi
 
-if [ -f "$SCRIPT_DIR/plugins.json" ]; then
+if [ -f "$SCRIPT_DIR/plugins.json" ] || [ -f "$SCRIPT_DIR/mcp-servers.json" ]; then
   echo ""
-  echo "=== 플러그인 설치 ==="
-  echo "plugins.json에 기록된 플러그인을 설치하려면"
+  echo "=== 플러그인 및 MCP 서버 설치 ==="
+  echo "plugins.json, mcp-servers.json에 기록된 항목을 설치하려면"
   echo "Claude Code에서 /sync-restore 를 실행하세요."
 fi
 

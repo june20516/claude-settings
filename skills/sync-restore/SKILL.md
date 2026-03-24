@@ -50,44 +50,7 @@ fi
 레포의 `sync-metadata.json`을 읽어 각 파일에 대해 충돌 가능성을 판단한다:
 
 ```bash
-python3 -c "
-import json, os, datetime
-
-meta_path = '${TMPDIR:-/tmp}/claude-sync-repo/sync-metadata.json'
-if not os.path.exists(meta_path):
-    print('메타데이터 없음 — 전체 비교 모드로 전환')
-    exit(0)
-
-with open(meta_path) as f:
-    metadata = json.load(f)
-
-backup_time = metadata['backup_timestamp']
-file_times = metadata.get('files', {})
-
-status = {'safe': [], 'conflict': [], 'repo_only': [], 'local_only': []}
-
-for repo_rel, backed_up_mtime in file_times.items():
-    if repo_rel == 'CLAUDE.md':
-        local = os.path.expanduser('~/.claude/CLAUDE.md')
-    elif repo_rel == 'plugins.json':
-        continue
-    elif repo_rel.startswith('agents/') or repo_rel.startswith('skills/'):
-        local = os.path.expanduser(f'~/.claude/{repo_rel}')
-    else:
-        continue
-
-    if not os.path.exists(local):
-        status['repo_only'].append(repo_rel)
-        continue
-
-    local_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(local), tz=datetime.timezone.utc).isoformat()
-    if local_mtime > backed_up_mtime:
-        status['conflict'].append((repo_rel, backed_up_mtime, local_mtime))
-    else:
-        status['safe'].append(repo_rel)
-
-print(json.dumps(status, indent=2, default=str))
-"
+python3 ~/.claude/skills/sync-restore/scripts/analyze_conflicts.py ${TMPDIR:-/tmp}/claude-sync-repo
 ```
 
 상태 분류:
@@ -170,11 +133,32 @@ claude plugin install <plugin-name>
 
 주의: `claude plugin` 명령어가 존재하지 않거나 실패하면, plugins.json 내용을 보여주고 수동 설치를 안내한다.
 
-### 8. 결과 보고
+### 8. MCP 서버 복원
+
+`mcp-servers.json`이 있으면 현재 등록된 MCP 서버와 비교하여 누락된 서버를 추가한다.
+
+```bash
+# 현재 등록된 서버 목록
+claude mcp list 2>/dev/null
+```
+
+mcp-servers.json에 있지만 현재 등록되지 않은 서버를 추가한다:
+
+```bash
+claude mcp add <name> <url>
+```
+
+인증이 필요한 서버(예: Google Calendar)는 등록 후 별도 인증이 필요할 수 있다. 등록만 하고 인증은 사용자에게 안내한다.
+
+주의: `claude mcp` 명령어가 실패하면, mcp-servers.json 내용을 보여주고 수동 등록을 안내한다.
+
+### 9. 결과 보고
 
 복원 완료 후 다음을 요약해서 보여준다:
 
 - 복원된 파일 목록
 - 새로 설치된 플러그인 목록
-- 설치 실패한 플러그인 (있으면)
+- 새로 등록된 MCP 서버 목록
+- 인증이 필요한 MCP 서버 (있으면)
+- 설치 실패한 항목 (있으면)
 - 건너뛴 항목 (있으면)

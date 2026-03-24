@@ -1,0 +1,22 @@
+[
+  {
+    "name": "claude.ai Google Calendar",
+    "url": "https://gcal.mcp.claude.com/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "claude.ai Gmail",
+    "url": "https://gmail.mcp.claude.com/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "context7",
+    "url": "https://mcp.context7.com/mcp",
+    "type": "HTTP"
+  },
+  {
+    "name": "supabase",
+    "url": "https://mcp.supabase.com/mcp?project_ref=pbzoxrmtvtkdrvmvhtth",
+    "type": "HTTP"
+  }
+]
