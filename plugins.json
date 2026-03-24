@@ -4,13 +4,20 @@
     "superpowers@claude-plugins-official": true,
     "frontend-design@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
-    "planning-with-files@planning-with-files": true
+    "planning-with-files@planning-with-files": true,
+    "claude-sync@claude-sync": true
   },
   "extraKnownMarketplaces": {
     "planning-with-files": {
       "source": {
         "source": "github",
         "repo": "OthmanAdi/planning-with-files"
+      }
+    },
+    "claude-sync": {
+      "source": {
+        "source": "github",
+        "repo": "june20516/claude-sync"
       }
     }
   }
