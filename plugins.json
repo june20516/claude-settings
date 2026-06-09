@@ -5,7 +5,8 @@
     "frontend-design@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
     "planning-with-files@planning-with-files": true,
-    "claude-sync@claude-sync": true
+    "claude-sync@claude-sync": true,
+    "figma@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "planning-with-files": {

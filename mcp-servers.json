@@ -1,13 +1,43 @@
 [
   {
+    "name": "claude.ai Notion",
+    "url": "https://mcp.notion.com/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "claude.ai Atlassian Rovo",
+    "url": "https://mcp.atlassian.com/v1/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "claude.ai Slack",
+    "url": "https://mcp.slack.com/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "claude.ai Figma",
+    "url": "https://mcp.figma.com/mcp",
+    "type": "stdio"
+  },
+  {
+    "name": "claude.ai Google Drive",
+    "url": "https://drivemcp.googleapis.com/mcp/v1",
+    "type": "stdio"
+  },
+  {
     "name": "claude.ai Google Calendar",
-    "url": "https://gcal.mcp.claude.com/mcp",
+    "url": "https://calendarmcp.googleapis.com/mcp/v1",
     "type": "stdio"
   },
   {
     "name": "claude.ai Gmail",
-    "url": "https://gmail.mcp.claude.com/mcp",
+    "url": "https://gmailmcp.googleapis.com/mcp/v1",
     "type": "stdio"
+  },
+  {
+    "name": "plugin:figma:figma",
+    "url": "https://mcp.figma.com/mcp",
+    "type": "HTTP"
   },
   {
     "name": "context7",
