@@ -35,11 +35,6 @@
     "type": "stdio"
   },
   {
-    "name": "plugin:figma:figma",
-    "url": "https://mcp.figma.com/mcp",
-    "type": "HTTP"
-  },
-  {
     "name": "context7",
     "url": "https://mcp.context7.com/mcp",
     "type": "HTTP"

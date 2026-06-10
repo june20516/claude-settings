@@ -1,15 +1,13 @@
 {
-  "backup_timestamp": "2026-06-09T12:35:53.172936+00:00",
   "files": {
-    "agents/code-reviewer.md": "2026-03-18T06:41:17.288090+00:00",
-    "agents/swift-expert.md": "2026-03-18T06:47:25.193246+00:00",
-    "agents/security-auditor.md": "2026-03-18T06:41:44.738847+00:00",
-    "agents/refactor-assistant.md": "2026-03-18T06:42:02.696790+00:00",
-    "agents/ios-expert.md": "2026-03-18T06:47:14.963217+00:00",
-    "agents/test-writer.md": "2026-03-18T06:41:35.773531+00:00",
-    "agents/go-expert.md": "2026-03-18T06:53:11.436597+00:00",
-    "skills/investigate/SKILL.md": "2026-03-18T08:15:36.500623+00:00",
-    "CLAUDE.md": "2026-05-18T05:37:03.431088+00:00",
-    "plugins.json": "2026-06-09T12:35:53.172936+00:00"
+    "agents/code-reviewer.md": "1be6108864175cdce71cc88e3f9e16439607450adf981f26c349387a588067c8",
+    "agents/swift-expert.md": "1b707c74053b6c4ec0c72de046a9b507b85969e1fcef70b08d7146e0d589b648",
+    "agents/security-auditor.md": "fb7aa0566dcdd47f7424e5c8b364a6f80d3a9215e5d7f97a7a13d7b33b53f660",
+    "agents/refactor-assistant.md": "f8519af276ecddfa0e33dbc6003164e9562d21c5972ef6b86290d28143fd6bef",
+    "agents/ios-expert.md": "f73c90931c3f5d7fd6f655123f51b35c588ddb3e870f4aa2d38a7721278f8102",
+    "agents/test-writer.md": "e02d2e28f82a2ea8bab9f412a6abed01b3fbb2cae9903250b6a9b5b444aadb17",
+    "agents/go-expert.md": "e3df4c9743d5f38100618321fb960980848a4d0c1b528338ff24eaf3c2d3dc09",
+    "skills/investigate/SKILL.md": "24a12625601fe5762fffcbdd3e518d711493b9f777af80bb3b5c962323175e91",
+    "CLAUDE.md": "c61caca11bcf83dead2579b2385d3ae6d17112e87b8173ca67a188df4237b890"
   }
 }
