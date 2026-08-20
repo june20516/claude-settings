@@ -38,10 +38,5 @@
     "name": "context7",
     "url": "https://mcp.context7.com/mcp",
     "type": "HTTP"
-  },
-  {
-    "name": "supabase",
-    "url": "https://mcp.supabase.com/mcp?project_ref=pbzoxrmtvtkdrvmvhtth",
-    "type": "HTTP"
   }
 ]
