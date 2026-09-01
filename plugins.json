@@ -1,34 +1,35 @@
 {
   "enabledPlugins": {
-    "swift-lsp@claude-plugins-official": true,
-    "superpowers@claude-plugins-official": false,
-    "frontend-design@claude-plugins-official": true,
-    "skill-creator@claude-plugins-official": true,
-    "planning-with-files@planning-with-files": true,
     "claude-sync@claude-sync": true,
     "figma@claude-plugins-official": true,
-    "suberpower@suberpower": true
+    "frontend-design@claude-plugins-official": true,
+    "planning-with-files@planning-with-files": true,
+    "skill-creator@claude-plugins-official": true,
+    "suberpower@suberpower": true,
+    "superpowers@claude-plugins-official": false,
+    "swift-lsp@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
-    "planning-with-files": {
-      "source": {
-        "source": "github",
-        "repo": "OthmanAdi/planning-with-files"
-      }
-    },
     "claude-sync": {
       "source": {
-        "source": "github",
-        "repo": "june20516/claude-sync"
-      },
-      "autoUpdate": true
+        "repo": "june20516/claude-sync",
+        "source": "github"
+      }
+    },
+    "planning-with-files": {
+      "source": {
+        "repo": "OthmanAdi/planning-with-files",
+        "source": "github"
+      }
     },
     "suberpower": {
       "source": {
-        "source": "github",
-        "repo": "june20516/suberpower"
-      },
-      "autoUpdate": true
+        "repo": "june20516/suberpower",
+        "source": "github"
+      }
     }
-  }
+  },
+  "pluginConfigs": {},
+  "scope": "user",
+  "version": 2
 }

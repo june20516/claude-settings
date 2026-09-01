@@ -1,13 +1,19 @@
 {
   "files": {
-    "agents/code-reviewer.md": "1be6108864175cdce71cc88e3f9e16439607450adf981f26c349387a588067c8",
-    "agents/swift-expert.md": "1b707c74053b6c4ec0c72de046a9b507b85969e1fcef70b08d7146e0d589b648",
-    "agents/security-auditor.md": "fb7aa0566dcdd47f7424e5c8b364a6f80d3a9215e5d7f97a7a13d7b33b53f660",
-    "agents/refactor-assistant.md": "f8519af276ecddfa0e33dbc6003164e9562d21c5972ef6b86290d28143fd6bef",
-    "agents/ios-expert.md": "f73c90931c3f5d7fd6f655123f51b35c588ddb3e870f4aa2d38a7721278f8102",
-    "agents/test-writer.md": "e02d2e28f82a2ea8bab9f412a6abed01b3fbb2cae9903250b6a9b5b444aadb17",
+    "CLAUDE.md": "c61caca11bcf83dead2579b2385d3ae6d17112e87b8173ca67a188df4237b890",
+    "agents/code-reviewer.md": "ffe1f62a0d9eacf3e29b0decd3a7ab3bad1182de418fb3954e66967b0fe1f228",
     "agents/go-expert.md": "e3df4c9743d5f38100618321fb960980848a4d0c1b528338ff24eaf3c2d3dc09",
-    "skills/investigate/SKILL.md": "24a12625601fe5762fffcbdd3e518d711493b9f777af80bb3b5c962323175e91",
-    "CLAUDE.md": "c61caca11bcf83dead2579b2385d3ae6d17112e87b8173ca67a188df4237b890"
-  }
+    "agents/ios-expert.md": "f73c90931c3f5d7fd6f655123f51b35c588ddb3e870f4aa2d38a7721278f8102",
+    "agents/refactor-assistant.md": "f8519af276ecddfa0e33dbc6003164e9562d21c5972ef6b86290d28143fd6bef",
+    "agents/security-auditor.md": "fb7aa0566dcdd47f7424e5c8b364a6f80d3a9215e5d7f97a7a13d7b33b53f660",
+    "agents/swift-expert.md": "1b707c74053b6c4ec0c72de046a9b507b85969e1fcef70b08d7146e0d589b648",
+    "agents/test-writer.md": "e02d2e28f82a2ea8bab9f412a6abed01b3fbb2cae9903250b6a9b5b444aadb17",
+    "skills/investigate/SKILL.md": "24a12625601fe5762fffcbdd3e518d711493b9f777af80bb3b5c962323175e91"
+  },
+  "min_reader_version": "3.0.0",
+  "schema": {
+    "mcp-servers.json": 2,
+    "plugins.json": 2
+  },
+  "written_by_version": "3.0.0"
 }
