@@ -1,7 +1,7 @@
 {
   "files": {
     "CLAUDE.md": "c61caca11bcf83dead2579b2385d3ae6d17112e87b8173ca67a188df4237b890",
-    "agents/code-reviewer.md": "1be6108864175cdce71cc88e3f9e16439607450adf981f26c349387a588067c8",
+    "agents/code-reviewer.md": "ffe1f62a0d9eacf3e29b0decd3a7ab3bad1182de418fb3954e66967b0fe1f228",
     "agents/go-expert.md": "e3df4c9743d5f38100618321fb960980848a4d0c1b528338ff24eaf3c2d3dc09",
     "agents/ios-expert.md": "f73c90931c3f5d7fd6f655123f51b35c588ddb3e870f4aa2d38a7721278f8102",
     "agents/refactor-assistant.md": "f8519af276ecddfa0e33dbc6003164e9562d21c5972ef6b86290d28143fd6bef",
@@ -15,5 +15,5 @@
     "mcp-servers.json": 2,
     "plugins.json": 2
   },
-  "written_by_version": "3.1.0"
+  "written_by_version": "3.1.1"
 }
