@@ -1,34 +1,6 @@
 {
   "scope": "user",
   "servers": {
-    "claude.ai Atlassian Rovo": {
-      "type": "stdio",
-      "url": "https://mcp.atlassian.com/v1/mcp"
-    },
-    "claude.ai Figma": {
-      "type": "stdio",
-      "url": "https://mcp.figma.com/mcp"
-    },
-    "claude.ai Gmail": {
-      "type": "stdio",
-      "url": "https://gmailmcp.googleapis.com/mcp/v1"
-    },
-    "claude.ai Google Calendar": {
-      "type": "stdio",
-      "url": "https://calendarmcp.googleapis.com/mcp/v1"
-    },
-    "claude.ai Google Drive": {
-      "type": "stdio",
-      "url": "https://drivemcp.googleapis.com/mcp/v1"
-    },
-    "claude.ai Notion": {
-      "type": "stdio",
-      "url": "https://mcp.notion.com/mcp"
-    },
-    "claude.ai Slack": {
-      "type": "stdio",
-      "url": "https://mcp.slack.com/mcp"
-    },
     "context7": {
       "headers": {
         "CONTEXT7_API_KEY": "<REDACTED>"
