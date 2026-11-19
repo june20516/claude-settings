@@ -10,9 +10,12 @@
     },
     "playwright": {
       "args": [
-        "@playwright/mcp@latest"
+        "@playwright/mcp@latest",
+        "--headless"
       ],
-      "command": "npx"
+      "command": "npx",
+      "env": {},
+      "type": "stdio"
     },
     "safari-mcp-stp": {
       "args": [
